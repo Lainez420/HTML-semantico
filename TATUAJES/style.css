@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=IBM+Plex+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100&family=Rubik:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.head{
+    background-color: #7e0404;
+    border: solid 8px #9BA4B5;
+    border-radius: 15px;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+    background-color: #7e0404;
+    border: solid 8px #9BA4B5;
+    border-radius: 15px;
+    width: 200px;
+    height: 400px;
+    list-style: none;
+    margin: 15px;
+   
+    
+}
+
+.article-principal{
+    background-color: #7a0707;
+    border: solid 8px #9BA4B5;
+    border-radius: 15px;
+    width: 700px;
+    margin: 15px;
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+}
+
+.subtitulos{
+    background-color: #C92C6D;
+    width: 200px;
+    text-align: center;
+    border: solid 5px #C92C6D;
+    border-radius: 15px;
+    margin: 15px;
+    font-family:  'Bruno Ace SC', cursive;
+
+}
+
+.parrafo{
+    background-color: #FF87CA ;
+    border: solid 5px #FF87CA;
+    border-radius: 15px;
+    margin: 15px;
+    font-family: 'Rubik', sans-serif;;
+}
+
+.titulo{
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.foter{
+    background-color: #655DBB;
+    border: solid 5px #655DBB;
+    border-radius: 15px;
+    width: 500px;
+    text-align: center;
+    margin: 15px;
+    
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+}
+   
+.lista{
+    list-style: lower-roman;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    margin: 25px;
+}
+
+.img{
+    width: 200px;
+    height: 200px;
+    border: solid 8px;
+    border-radius: 15px;
+    margin: 15px;
+}
